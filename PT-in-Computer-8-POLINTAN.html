@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LJEP's Student Profile Portfolio</title>
+
+    <style>
+        body {
+            background-color: #faa77e;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #f1e8ff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #b8acac;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6300;
+        }
+
+        h2 {
+            color: #ff6300;
+            border-bottom: 2px solid #ff6300;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #8700ff;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .title {
+            background-color: #ff6300;
+            color: #333;
+            text-align: center;
+            color: #000000;
+        }
+
+       .details {
+            background-color: #e5d5ff;
+            color: #333;
+           } 
+
+        td {
+            background-color: #f8fbff;
+        }
+
+        form {
+            background-color: #ffe9d5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+            .gender-options {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.gender-options label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gender-options input[type="radio"] {
+    margin: 0;
+}
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #ff6300;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff6300;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+
+.checkbox-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.checkbox-options label {
+    font-weight: normal;
+}
+
+.checkbox-options input[type="checkbox"] {
+    width: auto;
+    margin: 0 5px 0 0;
+}
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💫 Lei - Lei 's Student Profile 💫</h1>
+
+    <p style="text-align: center;">
+        Welcome to my Student Profile! Here you can learn more about me
+        and enter your own information. For more information about me, go check out nlj.carrd.co!
+    </p>
+
+    <h2>Part 1: Student Profile Card 💳</h2>
+
+    <h3>Here is some information about me!</h3>
+
+    <table>
+        <tr>
+    <th colspan="2" style="text-align: center;" class="title">OFFICIAL STUDENT PROFILE CARD</th>
+</tr>
+        
+        <tr>
+            <th class="details">Student Information</th>
+            <th style="text-align: center;" class="details">Details</th>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td>Leane Polintan aka Leane / Lei / Neon</td>
+        </tr>
+
+        <tr>
+            <td>Age</td>
+            <td>13</td>
+        </tr>
+
+          <tr>
+            <td>Gender</td>
+            <td>Female</td>
+        </tr>
+
+        <tr>
+            <td>Grade Level</td>
+            <td>Grade 8</td>
+        </tr>
+
+        <tr>
+            <td>Section</td>
+            <td>St. Matthew</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">SAP</td>
+            <td>Teatro Canossiano</td>
+        </tr>
+
+         <tr>
+            <td>Red Cross</td>
+        </tr>
+
+        <tr>
+            <td>Spring Org / Boy Scouts</td>
+        </tr>
+
+        <tr>
+            <td>School</td>
+            <td>Canossa Academy Calamba</td>
+            </tr>
+ 
+         <tr>
+            <td>Role</td>
+            <td>SPAC President</td>
+        </tr>
+    </table>
+
+    <h2>Part 2: Settings Panel ⚙️</h2>
+     <h3>Here's somewhere you can put your own information!</h3>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name">
+
+<label for="picture">Add a Picture:</label>
+<input type="file" id="picture" name="picture" accept="image/*">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"
+               placeholder="Enter your age">
+
+      <label>Gender:</label>
+
+<div class="gender-options">
+    <label>
+        <input type="radio" name="gender" value="Male">
+        Male
+    </label>
+
+    <label>
+        <input type="radio" name="gender" value="Female">
+        Female
+    </label>
+
+    <label>
+        <input type="radio" name="gender" value="Other">
+        Other
+    </label>
+</div>
+
+        <label for="grade">Grade Level:</label>
+        <input type="text" id="grade" name="grade"
+               placeholder="Enter your grade level">
+
+        <label for="section">Section:</label>
+        <input type="text" id="section" name="section"
+               placeholder="Enter your section">
+
+<label>Role:</label>
+
+<div class="checkbox-options">
+
+ <label>
+        <input type="checkbox" name="role" value="SPAC">
+        SAP Officer
+    </label>
+
+    <label>
+        <input type="checkbox" name="role" value="SPAC">
+        SPAC Officer
+    </label>
+
+    <label>
+        <input type="checkbox" name="role" value="SKC">
+        SKC Officer
+    </label>
+
+ <label>
+        <input type="checkbox" name="role" value="Student">
+        Student
+    </label>
+
+    <label>
+        <input type="checkbox" name="role" value="Staff/Teaching Personnel">
+        Staff/Teaching Personnel
+    </label>
+
+</div>
+
+         <label for="school">School:</label>
+             <select id="school" name="school">
+            <option value="Canossa Academy Calamba">Canossa Academy Calamba</option>
+            <option value="Other Branches of Canossa Academy">Other Branches of Canossa Academy</option>
+            <option value="Other School">Other School</option>
+        </select>
+
+        <label for="about">About Me:</label>
+        <textarea id="about" name="about"
+                  placeholder="Tell us something about yourself..."></textarea>
+
+        <button type="submit">Save Profile</button>
+
+    </form>
+
+<div id="result"></div>
+
+<script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let name = document.getElementById("name").value;
+        let picture = document.getElementById("picture").files[0];
+
+        let pictureURL = "";
+
+if (picture) {
+    pictureURL = URL.createObjectURL(picture);
+}
+     let age = Number(document.getElementById("age").value);
+        let grade = document.getElementById("grade").value;
+        let section = document.getElementById("section").value;
+        let school = document.getElementById("school").value;
+        let about = document.getElementById("about").value;
+        let gender = document.querySelector('input[name="gender"]:checked');
+
+if (gender) {
+    gender = gender.value;
+} else {
+    gender = "Not selected";
+}
+
+let roles = document.querySelectorAll('input[name="role"]:checked');
+
+let roleList = [];
+
+roles.forEach(function(role) {
+    roleList.push(role.value);
+});
+
+let roleAnswer = roleList.join(", ");
+
+        document.getElementById("result").innerHTML = `
+            <h2>Submitted Profile 📋</h2>
+
+            <table>
+                <tr>
+                    <th>Information</th>
+                    <th>Your Answer</th>
+                </tr>
+
+                <tr>
+                    <td>Name</td>
+                    <td>${name}</td>
+                </tr>
+
+<tr>
+    <td>Profile Picture</td>
+    <td>
+        ${pictureURL ? `<img src="${pictureURL}" width="150">` : "No picture uploaded"}
+    </td>
+</tr>
+
+                <tr>
+                    <td>Age</td>
+                    <td>${age}</td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>${gender}</td>
+                </tr>
+
+
+                <tr>
+                    <td>Grade Level</td>
+                    <td>${grade}</td>
+                </tr>
+
+                <tr>
+                    <td>Section</td>
+                    <td>${section}</td>
+                </tr>
+
+                <tr>
+                    <td>Role</td>
+                    <td>${roleAnswer}</td>
+                </tr>
+
+                <tr>
+                    <td>School</td>
+                    <td>${school}</td>
+                </tr>
+
+                <tr>
+                    <td>About Me</td>
+                    <td>${about}</td>
+                </tr>
+            </table>
+        `;
+    });
+</script>
+
+    <div class="footer">
+        <p>© 2026 LJEP's Student Profile</p>
+    </div>
+
+</div>
+
+</body>
+</html>
