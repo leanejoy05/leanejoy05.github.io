@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Personal info</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Birthday</th>
+  </tr>
+  <tr>
+    <td>Giulia Samiano</td>
+    <td>14</td>
+    <td>June 22, 2012</td>
+  </tr>
+  
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
